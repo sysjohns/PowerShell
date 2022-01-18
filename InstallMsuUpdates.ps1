@@ -1,10 +1,13 @@
 ﻿# Installs MSU update packages used by Windows Update
-# v1.0 1/11/2022
+# v2.0 1/18/2022
 # Aaron Johns
 # https://www.aaronjohns.com
-# Create a folder called "Updates" in the root C drive then copy over your MSU files
-# Run this script / ISE as administrator!
-# Update these variables
+# Run script as administrator
+
+# New folder 'Updates'
+mkdir "C:\Updates"
+
+# Variable for file path 'Updates'
 $UpdatePath = "C:\Updates"
 
 # Old hotfix list
